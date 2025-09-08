@@ -1,0 +1,19 @@
+{
+  "name": "01_deploy",
+  "version": "1.0.0",
+  "description": "How to deploy backend code in production",
+  "keywords": [
+    "node"
+  ],
+  "license": "ISC",
+  "author": "Gourav Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
