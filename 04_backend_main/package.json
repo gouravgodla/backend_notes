@@ -1,0 +1,19 @@
+{
+  "name": "04_backend_main",
+  "version": "1.0.0",
+  "description": "backend-main-start-here",
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Gourav Singh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
