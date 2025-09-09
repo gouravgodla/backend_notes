@@ -1,0 +1,65 @@
+<mxfile host="65bd71144e">
+    <diagram id="DLSvMY_4IKiH4_OA-7EY" name="Page-1">
+        <mxGraphModel dx="1471" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#E6E6E6" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="31" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="640" y="400" width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="31">
+                    <mxGeometry width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Hospital Schema&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;addressLine1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;addressLine2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;city&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;pincode&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;specialized&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="31">
+                    <mxGeometry x="20" y="10" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="970" y="570" width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="32">
+                    <mxGeometry width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Doctor Schema&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;salary&lt;/div&gt;&lt;div&gt;qualifiaction&lt;/div&gt;&lt;div&gt;experienceYears&lt;/div&gt;&lt;div&gt;worksInHospital&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="32">
+                    <mxGeometry x="20" y="10" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="980" y="260" width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;" edge="1" parent="36" source="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="80.00000000000023" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="36">
+                    <mxGeometry width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Patient Schema&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;tests&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="36">
+                    <mxGeometry x="20" y="10" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="630" y="690" width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="39">
+                    <mxGeometry width="190" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Patient Record Schema&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;diagonsedWith&lt;/div&gt;&lt;div&gt;age&lt;/div&gt;&lt;div&gt;address&lt;/div&gt;&lt;div&gt;bloodGroup&lt;/div&gt;&lt;div&gt;gender&lt;/div&gt;&lt;div&gt;admitted&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="39">
+                    <mxGeometry x="20" y="10" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0.317;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="41" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="920" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;" edge="1" parent="1" source="38" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
